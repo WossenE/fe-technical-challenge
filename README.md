@@ -4,10 +4,10 @@
 
 We want you to write a controlled form component called `MoneyInput` in React with the following criteria:
 
-- The user can input a decimal number (in Euro).
-- On change the component will convert the value to integer (in Cents) and emit new value by running the appropriate handler and log the new value in console.
-- On blur the component will convert the value to integer (in Cents) and emit new value by running the appropriate handler and log the new value in console.
-- Whenever a new value is provided (integer, in Cents) through the `value` prop, the value of the input field will be updated with the new decimal number (in Euro).
+- The user can input a decimal number (in Euro). DONE
+- On change the component will convert the value to integer (in Cents) and emit new value by running the appropriate handler and log the new value in console. DONE
+- On blur the component will convert the value to integer (in Cents) and emit new value by running the appropriate handler and log the new value in console. DONE
+- Whenever a new value is provided (integer, in Cents) through the `value` prop, the value of the input field will be updated with the new decimal number (in Euro). DONE
 - The component looks similar to the design in the screenshot below.
 - Bonus: The component is documented in Storybook.
 - Bonus: The component's interface besides the changes stemming from the functionality described above is identical to the interface of the HTML input element.
